@@ -24,7 +24,45 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/chess-solid-24.png"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts":[
+            {
+            "expoFontName":"Roboto-Black",
+            "fontFamily":"Roboto",
+            "file":"./assets/fonts/Roboto-Black.ttf"
+          },{
+            "expoFontName":"Roboto-Bold",
+            "fontFamily":"Roboto",
+            "file":"./assets/fonts/Roboto-Bold.ttf"
+          },
+          {
+            "expoFontName":"Roboto-Italic",
+            "fontFamily":"Roboto",
+            "file":"./assets/fonts/Roboto-Italic.ttf"
+          },
+          {
+            "expoFontName":"Roboto-Medium",
+            "fontFamily":"Roboto",
+            "file":"./assets/fonts/Roboto-Medium.ttf"
+          },
+          {
+            "expoFontName":"Roboto-Thin",
+            "fontFamily":"Roboto",
+            "file":"./assets/fonts/Roboto-Thin.ttf"
+          },
+          {
+            "expoFontName":"Roboto-Light",
+            "fontFamily":"Roboto",
+            "file":"./assets/fonts/Roboto-Light.ttf"
+          }
+          ]
+        }
+      ]
+    ]
   }
 }
